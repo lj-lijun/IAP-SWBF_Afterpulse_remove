@@ -51,14 +51,23 @@ Comparison with ATL24
 
 **4. File Structure**
 .
+
 ├── main.m                      % Main processing script
+
 ├── data/
+
 │   ├── ATL03/                 % Input ATL03 files
+
 │   └── ATL24/                 % Reference ATL24 data
+
 ├── results/                   % Output directory
+
 │   ├── sea_surf_cord.csv      % Sea surface photons
+
 │   ├── sea_down_cord.csv      % Underwater photons
+
 │   ├── sea_down_coordinate_m1.csv  % Final bathymetry
+
 │   └── *_results_m1.mat       % Intermediate results
 
 **5. Input Data**
